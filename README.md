@@ -4,7 +4,11 @@
 
 ![1-Basic Map](Images/1-Logo.png)
 
-Welcome to the United States Geological Survey, or USGS for short! The USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!
+Leaflet-Step-1 shows seismic activity from the last 7 days. Opening this folder and running **python -m http.server** renders the map shown above. The image shown below is the api call from Geo-JSON of all earthquakes that have occurred on a rolling 7 day basis. This is updated accordingly by the USGS.
+
+1. **Legend**- Magnitude determines both the size and color of the markers
+
+2. **Analysis**- Since the USGS publishes the data, you will notice a lack of smaller earthquakes the further away from the US they occur. 
 
 
 ### Geo-JSON
@@ -13,51 +17,16 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 
 This API is for the last 7 days earthquake data located here [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) .
 
-1. **Criteria 1**
-
-   ![3-Data](Images/3-Data.png)
-
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
-
-   ![4-JSON](Images/4-JSON.png)
-
-2. **Criteria 2**
-
-3. **Criteria 3**
-
-   
 
 - - -
 
 ### Level 2: More Data (Optional)
 
-![5-Advanced](Images/5-Advanced.png)
 
 The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
-In this step we are going to..
+Brought in the data for this located in the GeoJSON folder, however, not enough time with project work.
 
-* Plot a second data set on our map.
-
-* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
-
-* Add layer controls to our map.
-
-- - -
-
-### Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Completion of assigned tasks
-
-* Visual appearance
-
-* Professionalism
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-**Good luck!**
 
 ### Copyright
 
